@@ -239,6 +239,9 @@ button img{
     border-radius: 15px;
     padding-bottom: 10px;
 }
+.navigation:hover{
+        cursor: pointer;
+    }
 .home img{
     width: 30px;
     height: 30px;
@@ -519,6 +522,9 @@ button:hover{
         cursor: pointer;
     }
     .nav:hover{
+        cursor: pointer;
+    }
+  .navigation:hover{
         cursor: pointer;
     }
 }
