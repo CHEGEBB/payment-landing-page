@@ -1,0 +1,524 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Raleway:wght@400;700&display=swap');
+
+body{
+    background-color:hsl(180, 100%, 15%);
+font-family: 'Raleway', sans-serif;
+}
+h1{
+    font-weight: 700;
+}
+p{
+    font-weight: 400;
+}
+button{
+    background-color: hsl(0, 0%, 100%);
+    width: 100px;
+    border-radius: 12px;
+    border: 0px;
+    height: 40px;
+}
+.top{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: start;
+
+}
+.logo img{
+    width: 70px;
+    height: 70px;
+    margin-left: 200px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+   margin-left: 200px;
+    width: 700px;
+    height: 50px;
+    color: #fff;
+    gap: 10px;
+}
+button img{
+    width: 15px;
+    height: 15px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-top: 60px;
+}
+.save{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+
+}
+.save h1{
+    font-size: 15px;
+
+}
+.save p{
+    font-size: 30px;
+    width: 260px;
+
+}
+.phone{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color:hsl(0, 0%, 10%);;
+    height: 600px;
+    width: 330px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border-radius: 15px;
+}
+.collapse{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px;
+}
+.erik{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.collapse img{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+.bell{
+    margin-left: 130px;
+
+}
+.cover{
+    background-color:hsl(0, 0%, 5%);
+    border-radius: 15px;
+    width: 340px;
+    height: 620px;
+}
+.balance{
+    background-color: hsl(220, 50%, 10%);
+    width: 310px;
+    height: 120px; 
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 40px;
+    border-radius: 12px;
+}
+.balance h1{
+    font-size: 20px;
+    text-align: left;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.balance p{
+    font-size: 17px;
+    text-align: left;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.visa{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-right: 10px;
+}
+.visa img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.spend{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.limit{
+    background-color: #fff;
+    width: 130px;
+    height: 60px;
+    color: hsl(220, 50%, 10%);
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: 700;
+}
+.monthly{
+    background-color: #fff;
+    width: 130px;
+    height: 60px;
+    color: hsl(220, 50%, 10%);
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: 700;
+}
+.History{
+    margin-left: 10px;
+}
+.History h1{
+    font-size: 20px;
+}
+.mc{
+    display: flex;
+    flex-direction: row;
+
+}
+.mc img{
+
+}
+.net{
+    display: flex;
+    flex-direction: row;
+}
+.star{
+    display: flex;
+    flex-direction: row;
+
+}
+.mc-item{
+    display: flex;
+    flex-direction: row;
+    gap: 130px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.today{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+.net-item{
+    display: flex;
+    flex-direction: row;
+    gap: 130px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.yesterday{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+.star-item{
+    display: flex;
+    flex-direction: row;
+    gap: 130px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.yesterday2{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:hsl(220, 50%, 10%) ;
+    margin-top: 70px;
+    border-radius: 15px;
+    padding-bottom: 10px;
+}
+.home img{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+.plus img{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+.person img{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+button:hover{
+    background-color:blueviolet;
+    cursor: pointer;
+}
+.nav:hover{
+    cursor: pointer;
+}
+/* mobile view */
+@media only screen and (max-width: 600px) {
+    .top{
+        display: flex;
+        flex-direction: row;
+        margin-left:-200px;
+        width: 320px;
+        justify-content: space-between;
+    }
+    .logo img{
+        width: 30px;
+        height: 30px;
+    }
+    .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 0px;
+        width: 300px;
+        height: 50px;
+        color: #fff;
+        gap: 10px;
+    }
+    .nav-item1{
+        font-size: 10px;
+    }
+    .nav-item2{
+        font-size: 10px;
+    }
+    .nav-item3{
+        font-size: 10px;
+    }
+    .nav-item4{
+        font-size: 10px;
+    }
+    .nav-item5{
+        font-size: 10px;
+    }
+    .nav button{
+        width: 70px;
+        height: 40px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+        gap: 90px;
+        margin-top: 60px;
+    }
+    .save{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        justify-content: center;
+        align-items: center;
+        order: 2;
+    
+    }
+    .save h1{
+        font-size: 15px;
+    
+    }
+    .save p{
+        font-size: 30px;
+        width: 260px;
+    
+    }
+    .phone{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        background-color:hsl(0, 0%, 10%);;
+        height: 600px;
+        width: 330px;
+        margin-top: 10px;
+        margin-left: 5px;
+        border-radius: 15px;
+        order: 1;
+    }
+    .collapse{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-top: 20px;
+    }
+    .erik{
+        display: flex;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .collapse img{
+        width: 20px;
+        height: 20px;
+        margin-left: 10px;
+        margin-top: 10px;
+    
+    }
+    .bell{
+        margin-left: 130px;
+    
+    }
+    .cover{
+        background-color:hsl(0, 0%, 5%);
+        border-radius: 15px;
+        width: 340px;
+        height: 620px;
+    }
+    .balance{
+        background-color: hsl(220, 50%, 10%);
+        width: 310px;
+        height: 120px; 
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        margin-top: 40px;
+        border-radius: 12px;
+    }
+    .balance h1{
+        font-size: 20px;
+        text-align: left;
+        font-weight: 700;
+        margin-left: 10px;
+    }
+    .balance p{
+        font-size: 17px;
+        text-align: left;
+        font-weight: 400;
+        margin-left: 10px;
+    }
+    .visa{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        margin-right: 10px;
+    }
+    .visa img{
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+    .spend{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    }
+    .limit{
+        background-color: #fff;
+        width: 130px;
+        height: 60px;
+        color: hsl(220, 50%, 10%);
+        margin-top: 20px;
+        margin-left: 10px;
+        border-radius: 15px;
+        text-align: center;
+        font-weight: 700;
+    }
+    .monthly{
+        background-color: #fff;
+        width: 130px;
+        height: 60px;
+        color: hsl(220, 50%, 10%);
+        margin-top: 20px;
+        margin-left: 10px;
+        border-radius: 15px;
+        text-align: center;
+        font-weight: 700;
+    }
+    .History{
+        margin-left: 10px;
+    }
+    .History h1{
+        font-size: 20px;
+    }
+    .mc{
+        display: flex;
+        flex-direction: row;
+    
+    }
+    .mc img{
+    
+    }
+    .net{
+        display: flex;
+        flex-direction: row;
+    }
+    .star{
+        display: flex;
+        flex-direction: row;
+    
+    }
+    .mc-item{
+        display: flex;
+        flex-direction: row;
+        gap: 130px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .today{
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+    }
+    .net-item{
+        display: flex;
+        flex-direction: row;
+        gap: 130px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .yesterday{
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+    }
+    .star-item{
+        display: flex;
+        flex-direction: row;
+        gap: 130px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .yesterday2{
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+    }
+    .navigation{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color:hsl(220, 50%, 10%) ;
+        margin-top: 70px;
+        border-radius: 15px;
+        padding-bottom: 10px;
+    }
+    .home img{
+        width: 30px;
+        height: 30px;
+        margin-top: 10px;
+    }
+    .plus img{
+        width: 30px;
+        height: 30px;
+        margin-top: 10px;
+    }
+    .person img{
+        width: 30px;
+        height: 30px;
+        margin-top: 10px;
+    }
+    button:hover{
+        background-color:blueviolet;
+        cursor: pointer;
+    }
+    .nav:hover{
+        cursor: pointer;
+    }
+}
